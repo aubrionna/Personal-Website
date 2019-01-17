@@ -12,6 +12,7 @@ body {
 
 p {
   margin: 0;
+  line-height: 1em;
 }
 
 h1 {
@@ -25,9 +26,9 @@ h2 {
   margin-bottom: .5em;
 }
 .left {
-
     background: url('../image.jpg');
     background-size: cover;
+    background-position: left bottom;
 }
 
 .right {
