@@ -3,45 +3,56 @@
 }
 
 body {
-   background-color: #ffffff;
-   background: url('../image.jpg') bottom left no-repeat;
-   background-size: 50% auto;
+   background-color: #FDCE7C;
+   padding: 0;
+  margin: 0;
+   font-family: 'Nunito', sans-serif;
+  color: #ffffff;
 }
 
 p {
-  color: #ffffff;
-  font-family: 'Nunito', sans-serif;
-  line-height: .2em;
+  margin: 0;
 }
 
 h1 {
-  font-family: 'Dancing Script', cursive;
-  color: #ffffff;
-  line-height: 5px;
-  font-size: 3em;
-  padding-bottom: 4px;
+  display: none;
 }
 
-.middle {
-  display: table-cell;
-  vertical-align: middle;
+h2 {
+  font-family: 'Dancing Script', cursive;
+  color: #ffffff;
+  font-size: 3em;
+  margin-bottom: .5em;
+}
+.left {
+
+    background: url(http://aubrionna.com/image.jpg);
+    background-size: cover;
+}
+
+.right {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .inner {
   margin-left: auto;
   margin-right: auto;
   width: auto;
+
+  font-family: 'Nunito', sans-serif;
+  color: #ffffff;
+  line-height: .5em;
+  font-size: 1em;
 }
 
 .container {
-  background: #FDCE7C;
-  position: absolute;
-  display: table;
-  bottom: 0;
-  right: 0;
-  width: 50%;
-  height: 100%;
-  text-align: center;
-
-
+    background: #FDCE7C;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    text-align: center;
+    min-height: 100vh;
 }
