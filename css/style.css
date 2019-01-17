@@ -1,0 +1,57 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+   background-color: #ffffff;
+   background: url('../image.jpg');
+   background-position: left bottom;
+   background-size: 50% auto;
+   background-repeat: no-repeat;
+}
+
+p {
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  line-height: .2em;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #ffffff;
+  line-height: 5px;
+  font-size: 3em;
+  padding-bottom: 4px;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  color: #ffffff;
+  line-height: .5em;
+  font-size: 1em;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.container {
+  background: #FDCE7C;
+  position: absolute;
+  display: table;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+
+
+}
+FDCB79
