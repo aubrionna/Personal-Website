@@ -4,10 +4,8 @@
 
 body {
    background-color: #ffffff;
-   background: url('../image.jpg');
-   background-position: left bottom;
+   background: url('../image.jpg') bottom left no-repeat;
    background-size: 50% auto;
-   background-repeat: no-repeat;
 }
 
 p {
@@ -22,13 +20,6 @@ h1 {
   line-height: 5px;
   font-size: 3em;
   padding-bottom: 4px;
-}
-
-h2 {
-  font-family: 'Nunito', sans-serif;
-  color: #ffffff;
-  line-height: .5em;
-  font-size: 1em;
 }
 
 .middle {
@@ -54,4 +45,3 @@ h2 {
 
 
 }
-FDCB79
