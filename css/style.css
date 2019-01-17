@@ -16,10 +16,13 @@ p {
 }
 
 h1 {
+  display: none;
+}
+
+h2 {
   font-family: 'Dancing Script', cursive;
   color: #ffffff;
   font-size: 3em;
-  padding-bottom: -10px;
 }
 
 .left {
