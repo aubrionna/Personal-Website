@@ -27,17 +27,21 @@ h2 {
   margin-bottom: 20px;
 }
 
-.left {
+@media screen and (min-width: 575px) {
+  .left {
     background: url('../image.jpg');
     background-size: cover;
     background-position: bottom;
+  }
 }
 
-.right {
-  display: flex;
+@media screen and (min-width: 575px) {
+  .right {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
 }
 
 .inner {
