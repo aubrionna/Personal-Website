@@ -56,7 +56,7 @@ h2 {
     background: #FDCE7C;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 500px 150px;
+    grid-template-rows: 500px 125px;
     text-align: center;
     height: 100vh;
     width: 100%;
