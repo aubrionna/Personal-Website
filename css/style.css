@@ -47,7 +47,7 @@ h2 {
 .inner {
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
+  width: 100px;
   font-family: 'Nunito', sans-serif;
   color: #ffffff;
   font-size: 1em;
@@ -57,7 +57,7 @@ h2 {
     background: #FDCE7C;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 500px;
+    grid-template-rows: 70% 30%;
     text-align: center;
     min-height: 100vh;
     width: 575px;
